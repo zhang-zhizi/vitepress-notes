@@ -3,7 +3,7 @@ import { generateSidebar } from 'vitepress-sidebar';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  
+  base: '/vitepress-notes/',
   title: "我的项目",
   description: "A VitePress Site",
   themeConfig: {
