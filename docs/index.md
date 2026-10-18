@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "ZZZ的小站"
   text: "GO GO GO出发喽"
-  tagline: My great project tagline
+  tagline: 步履不停，自在生长
   image:
     src: /cat.svg
   actions:
