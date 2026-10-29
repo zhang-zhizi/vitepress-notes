@@ -1,0 +1,1 @@
+import{_ as e,o as s,c as a,j as o}from"./chunks/framework.BxsNGn3-.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"test.md","filePath":"test.md"}'),r={name:"test.md"};function n(l,t,c,d,p,i){return s(),a("div",null,[...t[0]||(t[0]=[o("p",null,"hello world",-1)])])}const f=e(r,[["render",n]]);export{_ as __pageData,f as default};

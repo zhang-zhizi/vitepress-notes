@@ -1,0 +1,324 @@
+
+/* 关于我：满屏彩色动态纸片 */
+
+.about-scene {
+  position: relative;
+  min-height: 100vh;
+  overflow: hidden;
+  padding: 28px 12px;
+  background: #fff0f5;
+  font-family: sans-serif;
+}
+
+.about-scene > h1 {
+  position: relative;
+  z-index: 10;
+  margin: 12px 0 20px;
+  color: #765565;
+  text-align: center;
+}
+
+.about-notes {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* 每一张纸片 */
+.about-note {
+  position: absolute;
+  width: 220px;
+  min-height: 82px;
+  box-sizing: border-box;
+  padding: 15px 18px;
+  border-radius: 5px;
+  box-shadow: 0 5px 16px #74556725;
+  color: #55434a;
+  font-size: 16px;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+  opacity: 0;
+  animation:
+    note-pop 0.8s cubic-bezier(.18,.75,.25,1.2) forwards,
+    note-float 3.5s ease-in-out 0.8s infinite alternate;
+}
+
+/* 让纸片错落、旋转、交叠 */
+.about-note:nth-child(1) {
+  top: 2%;
+  left: 2%;
+  background: #d9efff;
+  --angle: -8deg;
+  animation-delay: 0s, 0.8s;
+  z-index: 2;
+}
+
+.about-note:nth-child(2) {
+  top: 7%;
+  left: 19%;
+  background: #ffe2e9;
+  --angle: 5deg;
+  animation-delay: .12s, .92s;
+  z-index: 4;
+}
+
+.about-note:nth-child(3) {
+  top: 1%;
+  left: 39%;
+  background: #fff0b9;
+  --angle: -4deg;
+  animation-delay: .24s, 1.04s;
+  z-index: 3;
+}
+
+.about-note:nth-child(4) {
+  top: 9%;
+  left: 60%;
+  background: #d9f3df;
+  --angle: 7deg;
+  animation-delay: .36s, 1.16s;
+  z-index: 5;
+}
+
+.about-note:nth-child(5) {
+  top: 3%;
+  left: 78%;
+  background: #e9ddff;
+  --angle: -6deg;
+  animation-delay: .48s, 1.28s;
+  z-index: 1;
+}
+
+.about-note:nth-child(6) {
+  top: 19%;
+  left: 7%;
+  background: #fff0b9;
+  --angle: 4deg;
+  animation-delay: .6s, 1.4s;
+  z-index: 6;
+}
+
+.about-note:nth-child(7) {
+  top: 23%;
+  left: 27%;
+  background: #d9efff;
+  --angle: -7deg;
+  animation-delay: .72s, 1.52s;
+  z-index: 2;
+}
+
+.about-note:nth-child(8) {
+  top: 18%;
+  left: 48%;
+  background: #ffe2e9;
+  --angle: 6deg;
+  animation-delay: .84s, 1.64s;
+  z-index: 7;
+}
+
+.about-note:nth-child(9) {
+  top: 25%;
+  left: 69%;
+  background: #d9f3df;
+  --angle: -3deg;
+  animation-delay: .96s, 1.76s;
+  z-index: 4;
+}
+
+.about-note:nth-child(10) {
+  top: 34%;
+  left: 1%;
+  background: #e9ddff;
+  --angle: 7deg;
+  animation-delay: 1.08s, 1.88s;
+  z-index: 5;
+}
+
+.about-note:nth-child(11) {
+  top: 37%;
+  left: 21%;
+  background: #d9f3df;
+  --angle: -5deg;
+  animation-delay: 1.2s, 2s;
+  z-index: 1;
+}
+
+.about-note:nth-child(12) {
+  top: 33%;
+  left: 42%;
+  background: #fff0b9;
+  --angle: 4deg;
+  animation-delay: 1.32s, 2.12s;
+  z-index: 6;
+}
+
+.about-note:nth-child(13) {
+  top: 39%;
+  left: 63%;
+  background: #d9efff;
+  --angle: -6deg;
+  animation-delay: 1.44s, 2.24s;
+  z-index: 3;
+}
+
+.about-note:nth-child(14) {
+  top: 48%;
+  left: 10%;
+  background: #ffe2e9;
+  --angle: 5deg;
+  animation-delay: 1.56s, 2.36s;
+  z-index: 7;
+}
+
+.about-note:nth-child(15) {
+  top: 51%;
+  left: 32%;
+  background: #e9ddff;
+  --angle: -4deg;
+  animation-delay: 1.68s, 2.48s;
+  z-index: 2;
+}
+
+.about-note:nth-child(16) {
+  top: 47%;
+  left: 53%;
+  background: #d9f3df;
+  --angle: 6deg;
+  animation-delay: 1.8s, 2.6s;
+  z-index: 5;
+}
+
+.about-note:nth-child(17) {
+  top: 54%;
+  left: 74%;
+  background: #fff0b9;
+  --angle: -7deg;
+  animation-delay: 1.92s, 2.72s;
+  z-index: 1;
+}
+
+.about-note:nth-child(18) {
+  top: 64%;
+  left: 2%;
+  background: #d9efff;
+  --angle: 3deg;
+  animation-delay: 2.04s, 2.84s;
+  z-index: 4;
+}
+
+.about-note:nth-child(19) {
+  top: 67%;
+  left: 23%;
+  background: #fff0b9;
+  --angle: -6deg;
+  animation-delay: 2.16s, 2.96s;
+  z-index: 6;
+}
+
+.about-note:nth-child(20) {
+  top: 63%;
+  left: 45%;
+  background: #ffe2e9;
+  --angle: 5deg;
+  animation-delay: 2.28s, 3.08s;
+  z-index: 2;
+}
+
+.about-note:nth-child(21) {
+  top: 69%;
+  left: 66%;
+  background: #e9ddff;
+  --angle: -4deg;
+  animation-delay: 2.4s, 3.2s;
+  z-index: 7;
+}
+
+.about-note:nth-child(22) {
+  top: 79%;
+  left: 12%;
+  background: #d9f3df;
+  --angle: 6deg;
+  animation-delay: 2.52s, 3.32s;
+  z-index: 3;
+}
+
+.about-note:nth-child(23) {
+  top: 82%;
+  left: 36%;
+  background: #d9efff;
+  --angle: -5deg;
+  animation-delay: 2.64s, 3.44s;
+  z-index: 5;
+}
+
+.about-note:nth-child(24) {
+  top: 78%;
+  left: 59%;
+  background: #fff0b9;
+  --angle: 4deg;
+  animation-delay: 2.76s, 3.56s;
+  z-index: 1;
+}
+
+.about-note:nth-child(25) {
+  top: 85%;
+  left: 79%;
+  background: #ffe2e9;
+  --angle: -7deg;
+  animation-delay: 2.88s, 3.68s;
+  z-index: 6;
+}
+
+/* 逐张弹出 */
+@keyframes note-pop {
+  0% {
+    opacity: 0;
+    transform: translateY(35px) rotate(var(--angle)) scale(.45);
+  }
+  70% {
+    opacity: 1;
+    transform: translateY(-5px) rotate(var(--angle)) scale(1.04);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(var(--angle)) scale(1);
+  }
+}
+
+/* 弹出后持续轻轻漂浮 */
+@keyframes note-float {
+  from {
+    transform: translateY(-5px) rotate(var(--angle));
+  }
+  to {
+    transform: translateY(7px) rotate(calc(var(--angle) + 2deg));
+  }
+}
+
+/* 小屏幕适配 */
+@media (max-width: 650px) {
+  .about-scene {
+    padding: 20px 6px;
+  }
+
+  .about-note {
+    width: 155px;
+    min-height: 70px;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .about-notes {
+    min-height: 100vh;
+  }
+}
+
+/* 尊重系统的减少动态效果设置 */
+@media (prefers-reduced-motion: reduce) {
+  .about-note {
+    animation: none;
+    opacity: 1;
+    transform: rotate(var(--angle));
+  }
+}

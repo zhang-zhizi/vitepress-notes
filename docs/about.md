@@ -1,0 +1,38 @@
+---
+layout: page
+title: 关于我
+---
+
+<link rel="stylesheet" href="/vitepress-notes/about.css">
+
+<div class="about-scene">
+  <h1>关于我</h1>
+
+  <div class="about-notes">
+    <div class="about-note">好奇心满满 ✨</div>
+    <div class="about-note">温柔而真诚 🌷</div>
+    <div class="about-note">有自己的想法 💭</div>
+    <div class="about-note">认真对待喜欢的事 🎨</div>
+    <div class="about-note">善良是一种力量 💗</div>
+    <div class="about-note">喜欢探索新世界 🌎</div>
+    <div class="about-note">我有自己的闪光点 ⭐</div>
+    <div class="about-note">愿意学习新的东西 📚</div>
+    <div class="about-note">保持好奇，继续出发 🦋</div>
+    <div class="about-note">独立，也温柔 🌱</div>
+    <div class="about-note">创意藏在每个小想法里 💡</div>
+    <div class="about-note">允许自己慢慢成长 🌿</div>
+    <div class="about-note">认真生活，认真感受 ☀️</div>
+    <div class="about-note">乐观地面对新一天 🌈</div>
+    <div class="about-note">我的想法值得被听见 💬</div>
+    <div class="about-note">真诚是我的小宝藏 💎</div>
+    <div class="about-note">我有勇气尝试新事物 🚀</div>
+    <div class="about-note">不必完美，也值得喜欢 💕</div>
+    <div class="about-note">每一点进步都值得肯定 🌻</div>
+    <div class="about-note">做独一无二的自己 🪄</div>
+    <div class="about-note">认真、细腻、有创造力 🎀</div>
+    <div class="about-note">世界还有好多值得探索 🌍</div>
+    <div class="about-note">我正在发现更多可能 ✨</div>
+    <div class="about-note">按照自己的节奏成长 🌸</div>
+    <div class="about-note">未来还有很多惊喜 🎁</div>
+  </div>
+</div>

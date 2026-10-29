@@ -9,12 +9,17 @@ hero:
   image:
     src: /cat.svg
   actions:
-    - theme: brand
-      text: Markdown 示例
-      link: https://www.jd.com
-    - theme: alt
-      text: API 示例
-      link: /api-examples
+      - theme: brand
+        text: 关于我
+        link: /about
+      - theme: alt
+        text: 示例参考
+        link: /examples
+      - theme: alt
+        text: 开始
+        link: /guide/timeline
+      
+
 
 features:
   - title: Feature A
